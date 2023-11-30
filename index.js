@@ -1,6 +1,6 @@
 ymaps.ready(function () {
 
-    fetch('/points.json/')
+    fetch('points.json')
         .then(arr => arr.json())
 
         .then(obj => {
